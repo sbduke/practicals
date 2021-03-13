@@ -5,74 +5,130 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-        <style>
-                .button {
-          border-radius: 4px;
-          background-color: #f4511e;
-          border: none;
-          color: #FFFFFF;
-          text-align: center;
-          font-size: 28px;
-          padding: 10px;
-          width: 150px;
-          transition: all 0.5s;
-          cursor: pointer;
-          margin: 5px;
-        }
-
-        .button span {
-          cursor: pointer;
-          display: inline-block;
-          position: relative;
-          transition: 0.5s;
-        }
-
-        .button span:after {
-          content: '\00bb';
-          position: absolute;
-          opacity: 0;
-          top: 0;
-          right: -20px;
-          transition: 0.5s;
-        }
-
-        .button:hover span {
-          padding-right: 25px;
-        }
-
-        .button:hover span:after {
-          opacity: 1;
-          right: 0;
-        }
-        </style>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#b91d47">
+        <meta name="theme-color" content="#ffffff">
 	</head>
 	<body>
 
 		<!-- Header -->
-			<header id="header">
-				<div class="logo"><a href="#">PRACTICALS <span>THE CODE | THE OUTPUT</span></a></div>
+			<header id="header" class="alt">
+				<div class="logo"><a href="index.html">PRACTICALS <span>THE CODE | THE OUTPUT</span></a></div>
+				<a href="#menu">Menu</a>
 			</header>
 
-		<!-- Main -->
-			<section id="main">
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="assets/htmlpage.html">HTML</a></li>
+					<li><a href="assets/c++page.html">C++</a></li>
+				</ul>
+			</nav>
+
+		<!-- Banner -->
+			<section class="banner full">
+				<article>
+					<img src="images/6k2.jpg" alt="" />
+					<div class="inner">
+						<header>
+							<p>Meet an experiment paper sharing website</p>
+							<h2>HELLO!</h2>
+						</header>
+					</div>
+				</article>
+				<article>
+					<img src="images/slide02.jpg" alt="" />
+					<div class="inner">
+						<header>
+							<p>Practicals are always</p>
+							<h2>INTERESTING</h2>
+						</header>
+					</div>
+				</article>
+				<article>
+					<img src="images/slide03.jpg"  alt="" />
+					<div class="inner">
+						<header>
+							<p>To develop a website, you must learn</p>
+							<h2>HTML</h2>
+						</header>
+					</div>
+				</article>
+				<article>
+					<img src="images/slide04.jpg"  alt="" />
+					<div class="inner">
+						<header>
+							<p>Let's dive into the ocean of logic</p>
+							<h2>C/C++</h2>
+						</header>
+					</div>
+				</article>
+				<article>
+					<img src="images/slide05.jpg"  alt="" />
+					<div class="inner">
+						<header>
+							<p>Let's print</p>
+							<h2>HELLO WORLD</h2>
+						</header>
+					</div>
+				</article>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper style2">
 				<div class="inner">
-				<!-- Three -->
-					<section id="three" class="wrapper">
-						<div class="spotlight">
-							<div class="image flush"><img src="images/pic06.jpg" alt="" /></div>
-							<div class="inner">
-                                <button class="button" onclick="window.location.href='assets/htmlpage.html' "><span>HTML</span></button>
-								<p> HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Internet has always been a great mystery to us. Let's learn and wonder how it is formed. </p>
+					<div class="grid-style">
+						<div>
+							<div class="box">
+								<div class="image fit">
+									<img src="images/html5.png" alt="" />
+								</div>
+								<div class="content">
+									<header class="align-center">
+										<p>Hyper-text markup language</p>
+										<h2>HTML</h2>
+									</header>
+									<p> HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Internet has always been a great mystery to us. Let's learn and wonder how it is formed.</p>
+									<footer class="align-center">
+										<button class="button" onclick="window.location.href='assets/htmlpage.html'"> <span>HTML</span></button>
+									</footer>
+								</div>
 							</div>
 						</div>
-						<div class="spotlight alt">
-							<div class="image flush"><img src="images/pic07.jpg" alt="" /></div>
-							<div  class="inner">
-                                <button class="button" onclick="window.location.href='assets/c++page.html'"> <span>C/C++</span></button>
-								<p>C was originally developed at Bell Labs by Dennis Ritchie between 1972 and 1973 to construct utilities running on Unix. Now it is one of the most powerful coding languages all over the world. </p>
+
+						<div>
+							<div class="box">
+								<div class="image fit">
+									<img src="images/c.png" alt="" />
+								</div>
+								<div class="content">
+									<header class="align-center">
+										<p>MOTHER OF PROGRAMMING LANGUAGE</p>
+										<h2>C Language</h2>
+									</header>
+									<p>C was originally developed at Bell Labs by Dennis Ritchie between 1972 and 1973 to construct utilities running on Unix. Now it is one of the most powerful coding languages all over the world.</p>
+									<footer class="align-center">
+										<button class="button" onclick="window.location.href='assets/c++page.html'"> <span>C/C++</span></button>
+									</footer>
+								</div>
 							</div>
 						</div>
-					</section>
+					</div>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>Roy T. Bennett, The Light in the Heart</p>
+                        <h2>“Great things happen to those who don't stop believing, trying, learning, and being grateful.”</h2>
+					</header>
 				</div>
 			</section>
 
@@ -87,13 +143,13 @@
 					</ul>
 				</div>
 				<div class="copyright">
-					&copy; Made with ❤ by @SBDUKE. All rights reserved. 
+					&copy; Made with ❤ by @sbduke. All rights reserved. 
 				</div>
 			</footer>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>

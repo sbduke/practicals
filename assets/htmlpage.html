@@ -1,73 +1,161 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>HTML Practicals</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</head>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>HTML Experiments</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="../assets/css/main.css"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#b91d47">
+        <meta name="theme-color" content="#ffffff">
+	</head>
+	<body>
+        
+		<!-- Header -->
+			<header id="header" class="alt">
+				<div class="logo"><a href="../index.html">PRACTICALS <span>THE CODE | THE OUTPUT</span></a></div>
+				<a href="#menu">Menu</a>
+			</header>
 
-<body>
-    <div class="container pt-5">
-      <h2>Learn HTML</h2>
-      <p>Hypertext Markup Language, explore how it's formed, how it's work</p>            
-      <table class="table table-striped">
-        <thead>
-          <tr>
-            <th>Experiment No</th>
-            <th>Experiment Name</th>
-            <th>Opening Date</th>
-            <th>Submission Date</th>
-            <th>Source Code</th>
-            <th>Live Preview</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>01</td>
-            <td>FONT, TEXT STYLES</td>
-            <td>11-02-2021</td>
-            <td>18-02-2021</td>
-            <td> <a href = "https://github.com/sbduke/practicals/blob/main/assets/expt_01.html">Click Here</a></td>
-            <td> <a href="https://sbduke.github.io/practicals/assets/expt_01.html">Click Here</a></td>
-          </tr>
-          <tr>
-            <td>02</td>
-            <td>HEADER AND PARAGRAPH</td>
-            <td>11-02-2021</td>
-            <td>18-02-2021</td>
-            <td> <a href = "https://github.com/sbduke/practicals/blob/main/assets/expt_02.html">Click Here</a></td>
-            <td> <a href="https://sbduke.github.io/practicals/assets/expt_02.html">Click Here</a></td>
-          </tr>
-          <tr>
-            <td>03</td>
-            <td>BULLETS AND NUMBERING LIST</td>
-            <td>18-02-2021</td>
-            <td>25-02-2021</td>
-            <td> <a href = "https://github.com/sbduke/practicals/blob/main/assets/expt_03.html">Click Here</a></td>
-            <td> <a href="https://sbduke.github.io/practicals/assets/expt_03.html">Click Here</a></td>
-          </tr>
-          <tr>
-            <td>04</td>
-            <td>CREATING A TABLE</td>
-            <td>25-02-2021</td>
-            <td>04-03-2021</td>
-            <td> <a href = "https://github.com/sbduke/practicals/blob/main/assets/expt_04.html">Click Here</a></td>
-            <td> <a href="https://sbduke.github.io/practicals/assets/expt_04.html">Click Here</a></td>
-          </tr>
-            <tr>
-            <td>05</td>
-            <td>HOW TO CREATE A FRAME</td>
-            <td>04-03-2021</td>
-            <td>11-03-2021</td>
-            <td> <a href = "https://github.com/sbduke/practicals/blob/main/assets/expt_05.html">Click Here</a></td>
-            <td> <a href="https://sbduke.github.io/practicals/assets/expt_05.html">Click Here</a></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-</body>
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="htmlpage.html">HTML</a></li>
+					<li><a href="c++page.html">C++</a></li>
+				</ul>
+			</nav>
+
+		<!-- Main -->
+        <section class="banner quad">
+				<article>
+					<img src="../images/bg2m.jpg" alt="" />
+					<div class="inner">
+						<header>
+							<p>Arts and Crafts of Making Website</p>
+							<h2>HTML</h2>
+						</header>
+					</div>
+				</article>
+        </section>
+			<section id="main" style="
+                                        transition: background-image 1s ease-in-ease-out;
+                                        background: #4b6cb7;  /* fallback for old browsers */
+                                        background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+                                        background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+                                        background-size: cover; 
+                                        padding: 0;
+                                        min-height: 80vh;
+                                        height: 100vh !important; ">
+				<div class="inner">
+					<section id="one" class="wrapper">
+						<div class="table-wrapper" style="margin-top: 100px">
+                            <table class="" border ="5" bordercolor="gray" align="center" style="width:80%;">
+                                <thead>
+                                  <tr>
+                                    <th>Experiment No</th>
+                                    <th>Experiment Name</th>
+                                    <th>Opening Date</th>
+                                    <th>Submission Date</th>
+                                    <th>Source Code</th>
+                                    <th>Live Preview</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>01</td>
+                                    <td>FONT, TEXT STYLES</td>
+                                    <td>11-02-2021</td>
+                                    <td>18-02-2021</td>
+                                    <td> <a href = "https://github.com/sbduke/practicals/blob/main/assets/expt_01.html">Click Here</a></td>
+                                    <td> <a href="https://sbduke.github.io/practicals/assets/expt_01.html">Click Here</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td>02</td>
+                                    <td>HEADER AND PARAGRAPH</td>
+                                    <td>11-02-2021</td>
+                                    <td>18-02-2021</td>
+                                    <td> <a href = "https://github.com/sbduke/practicals/blob/main/assets/expt_02.html">Click Here</a></td>
+                                    <td> <a href="https://sbduke.github.io/practicals/assets/expt_02.html">Click Here</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td>03</td>
+                                    <td>BULLETS AND NUMBERING LIST</td>
+                                    <td>18-02-2021</td>
+                                    <td>25-02-2021</td>
+                                    <td> <a href = "https://github.com/sbduke/practicals/blob/main/assets/expt_03.html">Click Here</a></td>
+                                    <td> <a href="https://sbduke.github.io/practicals/assets/expt_03.html">Click Here</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td>04</td>
+                                    <td>CREATING A TABLE</td>
+                                    <td>25-02-2021</td>
+                                    <td>04-03-2021</td>
+                                    <td> <a href = "https://github.com/sbduke/practicals/blob/main/assets/expt_04.html">Click Here</a></td>
+                                    <td> <a href="https://sbduke.github.io/practicals/assets/expt_04.html">Click Here</a></td>
+                                  </tr>
+                                    <tr>
+                                    <td>05</td>
+                                    <td>HOW TO CREATE A FRAME</td>
+                                    <td>04-03-2021</td>
+                                    <td>11-03-2021</td>
+                                    <td> <a href = "https://github.com/sbduke/practicals/blob/main/assets/expt_05.html">Click Here</a></td>
+                                    <td> <a href="https://sbduke.github.io/practicals/assets/expt_05.html">Click Here</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td>SUP-1</td>
+                                    <td>MERGING TABLE CELLS</td>
+                                    <td>04-03-2021</td>
+                                    <td>11-03-2021</td>
+                                    <td> <a href = "https://github.com/sbduke/practicals/blob/main/assets/expt_sup1.html">Click Here</a></td>
+                                    <td> <a href="https://sbduke.github.io/practicals/assets/expt_sup1.html">Click Here</a></td>
+                                  </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h1 style="text-align: center;
+                                   color: white;
+                                   font-size: 100%;">*Opening and Submission Dates are only applicable for Group 5*</h1>
+					</section>
+				</div>
+			</section>
+        
+        <section id="two" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>Albert Einstein</p>
+                        <h2>“Never memorize something that you can look up.”</h2>
+					</header>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer" style="background-color: #141824">
+				<div class="container">
+					<ul class="icons">
+						<li><a href="https://twitter.com/Sharifff73" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/sharifbinhaque" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.instagram.com/__sharifff/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="mailto:sharifbinhaque@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+					</ul>
+				</div>
+				<div class="copyright">
+					&copy; Made with ❤ by @sbduke. All rights reserved. 
+				</div>
+			</footer>
+        
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.poptrox.min.js"></script>
+			<script src="../assets/js/skel.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
 </html>
+
