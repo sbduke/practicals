@@ -2446,6 +2446,7 @@
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
+        height:auto;
 	}
 
 	table {
@@ -2456,6 +2457,7 @@
         color:black;
         margin-left: auto;
         margin-right: auto;
+        table-layout: fixed;
 	}
 
 		table tbody tr {
