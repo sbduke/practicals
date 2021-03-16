@@ -1970,12 +1970,12 @@
 			display: block;
             margin-left: auto;
             margin-right: auto;
-			width: 40%;
+			width: 300px;
             float:
 		}
 
 			.image.fit img {
-				width: 100%;
+				width: 300px;
 			}
 
 		.image.main {
@@ -2036,7 +2036,6 @@
         color:black;
         margin-left: auto;
         margin-right: auto;
-        table-layout: fixed;
 	}
 
 		table tbody tr {
@@ -2047,7 +2046,8 @@
 
 		table td {
 			padding: 0.75rem 0.75rem;
-		}
+            vertical-align:middle;
+        }
 
 		table th {
 			font-size: 0.9rem;
